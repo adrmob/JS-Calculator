@@ -1,3 +1,5 @@
+//1. Build a function my_max() which takes an array and returns the maximum number.
+
 function my_max (numberArray) {
 		
   if(!(numberArray instanceof Array)) {
@@ -15,7 +17,8 @@ function my_max (numberArray) {
   return largest;
 	
 }
-			
+
+// 2. Build a function vowel_count() which takes a string and returns the number of vowels (AEIOUY).			
 function vowel_count(myString) {
   var count = 0,
   stringLength = myString.length;
@@ -28,7 +31,8 @@ function vowel_count(myString) {
   }
 	return count;
 }
-			
+
+//3. Build a function reverse() which takes a string and returns all the characters in the opposite position, e.g.			
 function reverse(someString) {
   return someString.split('').reverse().join('');
   }
